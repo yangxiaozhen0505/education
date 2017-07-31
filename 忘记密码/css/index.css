@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size:50px;
+}
+header{
+    position:relative;
+    width:60%;
+    height:80px;
+    line-height:80px;
+    background:#252525;
+    text-align:center;
+    margin:20px auto 0;
+}
+header h2{
+    font-size:24px;
+    font-weight:400;
+    color:#fff;
+}
+header span{
+    display:block;
+    position:absolute;
+    top:16px;
+    left:24px;
+    width:35px;
+    height:35px;
+    background: url(../images/arrow.png)no-repeat;
+    background-size:cover;
+    -webkit-background-size:cover;
+}
+
+.main{
+    width:60%;
+    padding:0 39px 20px;
+    box-sizing:border-box;
+    margin:0 auto;
+    border:2px solid #e8e8e8;
+}
+.main section.pic{
+    display:block;
+    width:100%;
+    height:300px;
+    line-height:300px;
+    padding-top:96px;
+    box-sizing:border-box;
+}
+.main section.pic img{
+    display:block;
+    width:117px;
+    height:116px;
+    border-radius:50%;
+    margin:0 auto;
+    background:#e5f3fd;
+    background-size:cover;
+    -webkit-background-size:cover;
+}
+
+.main section input{
+    display:block;
+    width:100%;
+    height:60px;
+    border:1px solid #d0d0d0;
+    border-radius:3px;
+    padding:0 3px;
+    box-sizing:border-box;
+    margin-bottom:30px;
+}
+.main section .identify{
+    width:100%;
+    height:80px;
+    line-height:80px;
+    padding:0;
+    margin-bottom:30px;
+}
+.main section .identify input{
+    display:block;
+    float:left;
+    width:60%;
+    height:60px;
+    border:1px solid #d0d0d0;
+    border-radius:3px;
+    box-sizing:border-box;
+}
+.main section .identify button{
+    display:block;
+    float:right;
+    width:38%;
+    height:60px;
+    border:1px solid #188ae4;
+    border-radius:3px;
+    padding:0 30px;
+    background:#d8edfe;
+    box-sizing:border-box;
+    color:#188ae4;
+}
+.main section .login{
+    display:block;
+    width:100%;
+    height:80px;
+    line-height:80px;
+    background:#188ae4;
+    color:#fff;
+    font-size:24px;
+    border:0;
+    border-radius:4px;
+}

@@ -1,0 +1,21 @@
+
+.carousel-control.left i{
+    position:absolute;
+    display:block;
+    width: 35px;
+    height: 35px;
+    font-size:35px;
+    top:50%;
+    margin-top:-18px;
+    left:235px;
+}
+.carousel-control.right i{
+    position:absolute;
+    display:block;
+    width: 35px;
+    height: 35px;
+    font-size:35px;
+    top:50%;
+    margin-top:-18px;
+    right:35px;
+}
